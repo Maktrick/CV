@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vieowport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compitable" content="ie-edge">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Sign Up / Sign In Page</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>عضویت در سایت</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="social"><i class="fa fa-yahoo"></i></a>
+                </div>
+                <span>ثبت نام به وسیله پست الکترونیک</span>
+                <input type="text" placeholder="نام" />
+                <input type="email" placeholder="پست الکترونیک" />
+                <input type="password" placeholder="گذرواژه" />
+                <button>ثبت نام</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>ورود</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a href="#" class="social"><i class="fa fa-yahoo"></i></a>
+                </div>
+                <span>ورود به وسیله پست الکترونیک</span>
+                <input type="email" placeholder="پست الکترونیکی" />
+                <input type="password" placeholder="گذرواژه" />
+                <a href="#">گذرواژه خود را فراموش کردید؟ </a>
+                <button>ورود</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>قبلا عضو شدی؟!</h1>
+                    <p>اگه قبلا عضو شدی میتونی از اینجا وارد شی</p>
+                    <button class="ghost" id="signIn">ورود</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>!سلام، دوست من</h1>
+                    <p>اگه عضو نیستی تو کمتر از یک دقیقه ثبت نام کن</p>
+                    <button class="ghost" id="signUp">ثبت نام</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
