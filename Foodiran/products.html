@@ -1,0 +1,2140 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Foodiran | فودیران</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/mdb.lite.min.css">
+    <!--My Own Css-->
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!---->
+</head>
+
+<body class="hidden-sn">
+
+    <!--Double navigation-->
+    <header>
+        <!-- Sidebar navigation -->
+        <div id="slide-out" class="side-nav side-bg-hamburger mt-6 view">
+            <ul class="custom-scrollbar h-100 bg-eee">
+                <!-- Logo -->
+                <li>
+                    <div class="logo-wrapper waves-light">
+                        <a href="#"><img src="./img/logo.PNG" class="img-fluid flex-center"></a>
+                    </div>
+                </li>
+                <!--/. Logo -->
+                <!--Search Form-->
+                <li>
+                    <form class="search-form" role="search">
+                        <div class="form-group md-form mt-0 pt-1 waves-light">
+                            <input type="text" class="form-control text-center" placeholder="جستجو">
+                        </div>
+                    </form>
+                </li>
+                <!--/.Search Form-->
+                <!-- Side navigation links -->
+                <li>
+                    <ul class="collapsible collapsible-accordion">
+                        <li><a class="waves-effect arrow-l font-size18" href="products.html"> محصولات</a></li>
+                        <li><a class="waves-effect arrow-l font-size18" href="index.html"> صفحه اصلی</a></li>
+                        <li><a class="waves-effect arrow-l font-size18" href="#"> درباره ما</a></li>
+                        <li><a class="waves-effect arrow-l font-size18" href="#"> تماس باما</a></li>
+                        <li class="waves-effect"><a class="font-size18 d-inline-block text-center" href="signup.html">ثبت نام </a><a
+                                class="d-inline-block font-size18 text-center" href="#"> / </a><a
+                                class="font-size18 d-inline-block text-center" href="signin.html">ورود</a></li>
+                    </ul>
+                </li>
+                <!--/. Side navigation links -->
+            </ul>
+            <div class="sidenav-bg pattern-3"></div>
+        </div>
+        <!--/. Sidebar navigation -->
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg double-nav bg-fastfood">
+            <!-- SideNav slide-out button -->
+            <div class="float-left">
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+            </div>
+            <!-- Breadcrumb-->
+            <div class="breadcrumb-dn ml-auto font-weight-bold mr-2 text-white cursor-default serif font-size18">
+                Foodiran
+            </div>
+            <ul class="nav navbar-nav nav-flex-icons mr-auto row-reverse">
+                <li class="nav-item">
+                    <a class="nav-link font-weight-normal text-white lightorange cursor-default">info@foodiran.ir <i
+                            class="fa fa-envelope"></i></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link waves-effect lightorange" href="#">
+                        <span class="badge badge-danger ml-1">1</span>
+                        سبد خرید
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item ml-2">
+                    <form class="form-inline row-reverse">
+                      <input class="form-control form-control-sm mr-1 w-75" type="text" placeholder="Search"
+                        aria-label="Search">
+                      <button class="text-white bg-transparent border-0 p-1" type="submit">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                    </form>
+                  </li>
+            </ul>
+        </nav>
+        <!-- /.Navbar -->
+    </header>
+    <section class="mb-4 mt-7">
+        <div class="row">
+            <div class="container">
+                <div class="col-12">
+                    <ul class="nav md-tabs nav-justified bg-fastfood lighten-3 mx-0" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active white-text font-weight-bold" data-toggle="tab" href="#panel1"
+                                role="tab"> پیتزاها</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text font-weight-bold" data-toggle="tab" href="#panel2"
+                                role="tab">برگرها</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text font-weight-bold" data-toggle="tab" href="#panel3" role="tab">
+                                سوخاری</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text font-weight-bold" data-toggle="tab" href="#panel4" role="tab">
+                                سالاد</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content px-0">
+                        <div class="tab-pane fade in show active " id="panel1" role="tabpanel">
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView1">
+                                            <img src="./img/pepperoni30.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">پیتزا پپرونی ۳۰ سانتی</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row">
+                                                    <span class="float-left">
+                                                        <strong>۵۲،۵۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView1" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/pepperoni30.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>پیتزا پپرونی ۳۰ سانتی</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۵۲،۵۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>خمیر پیتزا ایتالیایی، پپرونی، قارچ، سس
+                                                                                مخصوص،
+                                                                                پنیر</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView2">
+                                            <img src="./img/vegipizza.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">پیتزا سبزیجات 30 سانتی</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star grey-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۴۲،۰۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView2" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/vegipizza.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>پیتزا سبزیجات 30 سانتی</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۴۲،۰۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>خمیر پیتزا ایتالیایی، بادمجان، زیتون،
+                                                                                ذرت،
+                                                                                فلفل دلمه ای رنگی، قارچ، پیاز، سس مخصوص،
+                                                                                پنیر</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView3">
+                                            <img src="./img/foodiranpizza.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">پیتزا مخصوص فودیران</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۵۶،۵۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView3" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/foodiranpizza.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>پیتزا مخصوص فودیران</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۵۶،۵۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>خمیر پیتزا ایتالیایی، سالامی، پپرونی،
+                                                                                پنیر
+                                                                                زرد، کنجد، سس مخصوص، پنیر</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView4">
+                                            <img src="./img/bella.png" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">پیتزا بلا چاو</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row">
+                                                    <span class="float-left">
+                                                        <strong>۶۸،۰۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView4" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/bella.png" alt="Bella Chav"
+                                                                                class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>پیتزا بلا چاو</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۶۸،۰۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>خمیر پیتزا ایتالیایی،سس پیتزا،پنیر
+                                                                                موزارلا
+                                                                                تازه،پنیر پیتزا،بیکن،قارچ طعم دار،روکولا
+                                                                            </p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView5">
+                                            <img src="./img/roastbeef30.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">پیتزا رست بیف 30 سانتی</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star grey-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۶۴،۰۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView5" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/roastbeef30.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>پیتزا رست بیف 30 سانتی</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۶۴،۰۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>خمیر پیتزا ایتالیایی، گوشت ریش ریش شده،
+                                                                                قارچ،
+                                                                                سس مخصوص، پنیر</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView6">
+                                            <img src="./img/pizzasteak.jpeg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">پیتزا خامه استیک</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۶۹،۰۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView6" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/pizzasteak.jpeg" alt="steak"
+                                                                                class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>پیتزا خامه استیک</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۶۹،۰۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>گوشت استیک، سس آلفردو، پنیر</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade " id="panel2" role="tabpanel">
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView7">
+                                            <img src="./img/hamburger.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">همبرگر</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row">
+                                                    <span class="float-left">
+                                                        <strong>۴۱،۵۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView7" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/hamburger.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>همبرگر</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۴۱،۵۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>160 گرم برگر گوشت خالص، کاهو، سس مخصوص حاوی خیارشور و پیاز ، نان گرد</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView8">
+                                            <img src="./img/cheeseburger.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">چیز برگر</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star grey-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۴۶،۵۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView8" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/cheeseburger.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>چیز برگر</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۴۶،۵۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>160 گرم برگر گوشت خالص، پنیر مخصوص چیز برگر، کاهو، سس مخصوص حاوی خیارشور و پیاز ، نان گرد</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView9">
+                                            <img src="./img/foodiranburger.jpeg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">فودیران برگر</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۴۹،۵۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView9" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/foodiranburger.jpeg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>فودیران برگر</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۴۹،۵۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>160 گرم گوشت خالص ، کاهو ، پنیر پارمزان ، قارچ ، پیاز کاراملی و سس خامه ای مخصوص</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView10">
+                                            <img src="./img/mushroomburger.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">قارچ برگر</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row">
+                                                    <span class="float-left">
+                                                        <strong>۶۸،۰۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView10" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/mushroomburger.jpg" alt="Bella Chav"
+                                                                                class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>قارچ برگر</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۶۸،۰۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>160 گرم برگر گوشت خالص، پنیر مخصوص چیز برگر، سس قارچ، نان گرد
+                                                                            </p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView11">
+                                            <img src="./img/doublecheeseburger.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">دبل چیز برگر</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star grey-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۷۳،۰۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView11" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/doublecheeseburger.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>دبل چیز برگر</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۷۳،۰۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>320 گرم برگر گوشت خالص، پنیر مخصوص چیز برگر، کاهو، سس مخصوص حاوی خیارشور و پیاز ، نان گرد</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade " id="panel3" role="tabpanel">
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView12">
+                                            <img src="./img/4teke.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">چیکن استریپس چهار تکه</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row">
+                                                    <span class="float-left">
+                                                        <strong>۴۸،۵۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView12" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/4teke.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>چیکن استریپس چهار تکه</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۴۸،۵۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>چهار تکه چیکن استریپس، دورچین: سیب زمینی سرخ کرده، سالاد کلم، نان بروتچن، سس مخصوص</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView13">
+                                            <img src="./img/3tekespicy.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">مرغ سوخاری سه تکه اسپایسی</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star grey-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۵۲،۵۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView13" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/3tekespicy.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>مرغ سوخاری سه تکه اسپایسی</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۵۲،۵۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>3 تکه مرغ سوخاری، دورچین: سیب زمینی سرخ کرده، سالاد کلم، نان بروتچن</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView14">
+                                            <img src="./img/shrimp.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">میگو سوخاری</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۶۵،۰۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView14" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/shrimp.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>میگو سوخاری</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۶۵،۰۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>میگو سوخاری، دورچین: سیب زمینی سرخ کرده، نان بروتچن، سس مخصوص</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView15">
+                                            <img src="./img/spicy.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">مرغ سوخاری دو تکه اسپایسی</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row">
+                                                    <span class="float-left">
+                                                        <strong>۴۱،۰۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView15" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/spicy.jpg" alt="Bella Chav"
+                                                                                class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>مرغ سوخاری دو تکه اسپایسی</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۴۱،۰۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>2 تکه مرغ سوخاری، دورچین: سیب زمینی سرخ کرده، سالاد کلم، نان بروتچن
+                                                                            </p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView16">
+                                            <img src="./img/2normal.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">مرغ سوخاری دو تکه نرمال</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star grey-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۴۱،۰۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView16" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/2normal.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>مرغ سوخاری دو تکه نرمال</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۴۱،۰۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>2 تکه مرغ سوخاری، دورچین: سیب زمینی سرخ کرده، سالاد کلم، نان بروتچن</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView17">
+                                            <img src="./img/nugget.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">چیکن ناگت</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۳۶،۰۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView17" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/nugget.jpg" alt="steak"
+                                                                                class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>چیکن ناگت</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۳۶،۰۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>ناگت مرغ، دورچین: سیب زمینی سرخ کرده، نان بروتچن</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end of third section-->
+                        <div class="tab-pane fade " id="panel4" role="tabpanel">
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView18">
+                                            <img src="./img/sezarstrips.JPG" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">سالاد سزار با چیکن استریپس</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row">
+                                                    <span class="float-left">
+                                                        <strong>۳۶،۰۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView18" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/sezarstrips.JPG"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>سالاد سزار با چیکن استریپس</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۳۶،۰۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>کاهو،2عدد چیکن استریپس،گوجه گیلاسی،پنیرپارمزان،نان سرخ شده</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView19">
+                                            <img src="./img/kinova.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">سالاد کینوا</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star grey-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۴۳،۵۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView19" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/kinova.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>سالاد کینوا</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۴۳،۵۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>خمیر پیتزا ایتالیایی، بادمجان، زیتون،
+                                                                                ذرت،
+                                                                                فلفل دلمه ای رنگی، قارچ، پیاز، سس مخصوص،
+                                                                                پنیر</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView20">
+                                            <img src="./img/foodiransalad.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">سالاد فودیران</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row mb-0">
+                                                    <span class="float-left">
+                                                        <strong>۳۹،۵۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView20" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/foodiransalad.jpg"
+                                                                                alt="Pepperoni" class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>سالاد فودیران</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۳۹،۵۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>کاهو، 100 گرم سینه مرغ، بیکن، پنیر، زیتون، کنجد، بیبی کروتان، هویج، نان سرخ شده</p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4">
+                                    <div class="card card-ecommerce">
+                                        <div class="view overlay" data-toggle="modal" data-target="#modalView21">
+                                            <img src="./img/cabbage.jpg" class="img-fluid" alt="sample image">
+                                            <a>
+                                                <div class="mask rgba-white-slight"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-1">
+                                                <strong>
+                                                    <a href="" class="dark-grey-text">سالاد کلم</a>
+                                                </strong>
+                                            </h5>
+                                            <ul class="rating">
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-star blue-text"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="card-footer pb-0">
+                                                <div class="row">
+                                                    <span class="float-left">
+                                                        <strong>۸،۵۰۰ تومان</strong>
+                                                    </span>
+                                                    <span class="float-right mr-2">
+                                                        <a class="">
+                                                            <i class="fa fa-shopping-cart ml-3"></i>
+                                                        </a>
+                                                    </span>
+                                                    <!-- Modal: modalQuickView -->
+                                                    <div class="modal fade" id="modalView21" tabindex="-1" role="dialog"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-body">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-5">
+                                                                            <img src="./img/cabbage.jpg" alt="Bella Chav"
+                                                                                class="img-fluid">
+                                                                        </div>
+                                                                        <div class="col-lg-7">
+                                                                            <h2 class="h2-responsive product-name">
+                                                                                <strong>سالاد کلم</strong>
+                                                                            </h2>
+                                                                            <h5 class="h5-responsive">
+                                                                                <span class="green-text">
+                                                                                    <strong>۸،۵۰۰ تومان</strong>
+                                                                                </span>
+                                                                            </h5>
+                                                                            <h5 class="h5-responsive grey-text mt-4">
+                                                                                مواد استفاده شده
+                                                                            </h5>
+                                                                            <p>100گرم سالاد کلم
+                                                                            </p>
+                                                                            <!-- Add to Cart -->
+                                                                            <div class="card-body">
+                                                                                <div class="text-center">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-dark"
+                                                                                        data-dismiss="modal">بستن</button>
+                                                                                    <button
+                                                                                        class="btn btn-primary">اضافه
+                                                                                        کردن به سبد خرید
+                                                                                        <i class="fa fa-cart-plus ml-2"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- /.Add to Cart -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer font-small bg-fastfood  mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+                        <a class="fb-ic">
+                            <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <a class="tw-ic">
+                            <i class="fa fa-twitter  fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <a class="gplus-ic">
+                            <i class="fa fa-google-plus-official fa-lg white-text mr-md-5 mr-3 fa-2x">
+                            </i>
+                        </a>
+                        <a class="li-ic">
+                            <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <a class="ins-ic">
+                            <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020
+            <a href="https://iranian.academy"> foodiran.ir</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script type="text/JavaScript" scr="./js/sidenav.js"></script>
+    <!--Popper Goes Here-->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Js Link Comes Here-->
+    <script type="text/JavaScript" src="./js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> <!-- Menu Toggle Script -->
+
+</body>
+
+</html>

@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan.eot?#') format('eot'),
+    url('../fonts/Yekan.woff') format('woff'),
+    url('../fonts/Yekan.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Yekan', sans-serif , helvetica;
+    background: #f5f5f5 !important;
+    overflow-x: hidden !important;
+    direction:rtl !important;
+    text-align: right !important;
+}
+/* cursors */
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.cursor-default {
+    cursor: default !important;
+}
+
+/* colors */
+.text-eee {
+    color:#eee !important;
+}
+
+.text-black {
+    color:#000 !important;
+}
+
+.navbar-eee {
+    background-color: rgba(238, 238, 238 , 0.3);
+}
+
+.bg-fastfood {
+    background-color: #d95617 !important;
+}
+
+.lightorange:hover {
+    color: #f8b9a7 !important;
+}
+
+.bg-eee {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-hov-orange:hover {
+    background-color: #d95617 !important;
+}
+
+.hov-orange:hover {
+    color: #d95617 !important;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+/*Sign In And Sign Up*/
+
+.container-login100 {
+    width: 100% !important;  
+    min-height: 100vh !important;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 15px !important;
+    background-image:url("../img/pis.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrap-login100 {
+    background: rgba(255,255,255,0.7) !important;
+    
+    border-radius: 10px !important;
+    justify-content: space-between !important;
+    padding: 8rem 6.25rem;
+}
+
+.log-pic {
+    width:100%;
+}
+
+.forgotpass:hover {
+    text-decoration: underline !important;
+}
+
+.forgotpass {
+    display:block !important;
+    color:#000 !important;
+}
+.font-size12 {
+    font-size: 12px !important;
+}
+
+.font-size14 {
+    font-size:14px !important;
+}
+
+.font-size18 {
+    font-size: 18px !important;
+}
+
+/* sizes */
+.font-size12 {
+    font-size: 12px !important;
+}
+
+.font-size14 {
+    font-size:14px !important;
+}
+
+.font-size18 {
+    font-size: 18px !important;
+}
+
+.serif {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+.display-10 {
+    font-size:3rem !important;
+}
+
+.p-10 {
+    padding:5rem !important;
+}
+
+.line-height13 {
+    line-height: 1.3rem;
+}
+
+.line-height15 {
+    line-height:1.5;
+}
+
+.mt-6 {
+    margin-top: 54.5px !important;
+}
+
+.mt-7 {
+    margin-top: 60px !important;
+}
+
+/* Navbar */
+
+.space-between {
+    justify-content: space-between !important;
+}
+
+.row-reverse {
+    display:flex !important;
+    flex-direction: row-reverse !important;
+}
+
+/* First Section */
+
+.side-nav {
+    padding-bottom: 0 !important;
+}
+
+.vh100 {
+    height:100vh !important;
+}
+
+.side-bg-hamburger {
+    background-image: url('../img/hamburger-menu.jpg') !important;
+    height: 100% !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+@media all and (max-width:1024px){
+    .font-size12 {
+        font-size: 10px !important;
+    }
+
+    .container-login100{
+        background-image: url("../img/wine.jpg") !important;
+        background-size: cover;
+        background-position:50% 50%;
+        height:100vh;
+    }
+    
+}
+
+@media all and (max-width:767px) {
+    #inputEmail1::placeholder , #inputEmail2::placeholder {
+        font-size: 12px !important;
+    }
+    
+    #inputPassword1::placeholder , #inputPassword2::placeholder , #inputPassword3::placeholder {
+        font-size: 12px !important;
+    }
+
+    .form-check-label {
+        font-size: 12px !important;
+    }
+
+    .wrap-login100 {
+        padding: 4rem 4rem;
+    }
+
+}
+
+@media all and (max-width:1024px) and (min-width:768px){
+    .hezartooman {
+        width:200px;
+    }
+    .mt-6 {
+        margin-top:46.5px !important;
+    }
+
+    .mt-7 {
+        margin-top:50px !important;
+    }
+
+    .vh100 {
+        height:50vh !important;
+    }
+
+    .mobile-30 {
+        height:30vh !important;
+    }
+
+    .font-r-14 {
+        font-size: 14px !important;
+    }
+
+    .bg-eee {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+
+
+@media all and (max-width:767px) {
+    .mt-6 {
+        margin-top:46.5px !important;
+    }
+
+    .vh100 {
+        height:50vh !important;
+    }
+
+    .mobile-30 {
+        height:30vh !important;
+    }
+
+    .font-r-14 {
+        font-size: 14px !important;
+    }
+
+    .bg-eee {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .hezartooman{
+        font-size: 12px !important;
+        width:100px;
+    }
+}
+
+
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}		

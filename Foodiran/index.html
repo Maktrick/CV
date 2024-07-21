@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Foodiran | فودیران</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="css/mdb.lite.min.css">
+  <!--My Own Css-->
+  <link href="css/style.css" rel="stylesheet">
+
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <!---->
+</head>
+
+<body class="hidden-sn">
+
+  <!--Double navigation-->
+  <header>
+    <!-- Sidebar navigation -->
+    <div id="slide-out" class="side-nav side-bg-hamburger mt-6 view">
+      <ul class="custom-scrollbar h-100 bg-eee">
+        <!-- Logo -->
+        <li>
+          <div class="logo-wrapper waves-light">
+            <a href="#"><img src="./img/logo.PNG" class="img-fluid flex-center"></a>
+          </div>
+        </li>
+        <!--/. Logo -->
+        <!--Search Form-->
+        <li>
+          <form class="search-form" role="search">
+            <div class="form-group md-form mt-0 pt-1 waves-light">
+              <input type="text" class="form-control text-center" placeholder="جستجو">
+            </div>
+          </form>
+        </li>
+        <!--/.Search Form-->
+        <!-- Side navigation links -->
+        <li>
+          <ul class="collapsible collapsible-accordion">
+            <li><a class="waves-effect arrow-l font-size18" href="products.html"> محصولات</a></li>
+            <li><a class="waves-effect arrow-l font-size18" href="#"> صفحه اصلی</a></li>
+            <li><a class="waves-effect arrow-l font-size18" href="#"> درباره ما</a></li>
+            <li><a class="waves-effect arrow-l font-size18" href="#"> تماس باما</a></li>
+            <li class="waves-effect"><a class="font-size18 d-inline-block text-center" href="signup.html">ثبت نام </a><a
+                class="d-inline-block font-size18 text-center" href="#"> / </a><a
+                class="font-size18 d-inline-block text-center" href="signin.html">ورود</a></li>
+          </ul>
+        </li>
+        <!--/. Side navigation links -->
+      </ul>
+      <div class="sidenav-bg pattern-3"></div>
+    </div>
+    <!--/. Sidebar navigation -->
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg double-nav bg-fastfood">
+      <!-- SideNav slide-out button -->
+      <div class="float-left">
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+      </div>
+      <!-- Breadcrumb-->
+      <div class="breadcrumb-dn ml-auto font-weight-bold mr-2 text-white cursor-default serif font-size18">
+        Foodiran
+      </div>
+      <ul class="nav navbar-nav nav-flex-icons mr-auto row-reverse">
+        <li class="nav-item">
+          <a class="nav-link font-weight-normal text-white lightorange cursor-default">info@foodiran.ir <i
+              class="fa fa-envelope"></i></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link waves-effect lightorange" href="#">
+            <span class="badge badge-danger ml-1">1</span>
+            سبد خرید
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item ml-2">
+          <form class="form-inline row-reverse">
+            <input class="form-control form-control-sm mr-1 w-75" type="text" placeholder="Search"
+              aria-label="Search">
+            <button class="text-white bg-transparent border-0 p-1" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+    <!-- /.Navbar -->
+  </header>
+  <!--/.Double navigation-->
+
+  <!--Carousel-->
+  <section>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active view">
+          <img class="d-block w-100 vh100 img-fluid" src="./img/hamb.jpg" alt="First slide">
+          <div class="mask pattern-7 flex-center">
+            <h1 class="white-text text-center bg-eee p-5">فودیران بزرگترین برند اغذیه ایرانی</h3>
+          </div>
+        </div>
+        <div class="carousel-item view">
+          <img class="d-block w-100 vh100 img-fluid" src="./img/banner.png" alt="Second slide">
+          <div class="mask pattern-7 flex-center">
+            <h1 class="white-text text-center bg-eee p-5">فودیران بزرگترین برند اغذیه ایرانی</h3>
+          </div>
+        </div>
+        <div class="carousel-item view">
+          <img class="d-block w-100 vh100 img-fluid" src="./img/burger.jpg" alt="Third slide">
+          <div class="mask pattern-7 flex-center">
+            <h1 class="white-text text-center bg-eee p-5">فودیران بزرگترین برند اغذیه ایرانی</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Carousel-->
+  <!--Section-->
+  <section class="container mt-5 mb-2">
+    <div class="row">
+      <div class="col-12">
+        <div class="view  z-depth-1">
+          <img src="./img/rest.jpg" class="float-left w-50" alt="sample image">
+          <div class="mask rgba-stylish-slight">
+
+            <div class="dark-grey-text text-right pt-lg-5 pt-md-1 mr-5 pr-md-4 pr-0">
+
+              <div>
+
+                <a href="#">
+
+                  <span class="badge badge-danger">جدید</span>
+
+                </a>
+
+                <h2 class="card-title font-weight-bold pt-md-3 pt-1 mb-3 font-r-14">
+                  ارسال رایگان
+                </h2>
+                <p class="pb-lg-3 pb-md-1 clearfix hezartooman"> برای خریدهای 50 هزار تومان به بالا ارسال رایگان
+                  به سراسر کشور </p>
+                <a class="btn mr-0 btn-primary btn-rounded clearfix d-none d-md-inline-block">سفارش دهید</a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Table-->
+  <section class="mb-5 container">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-12 pt-5">
+        <hr>
+        <h5 class="text-center font-weight-bold dark-grey-text">
+          <strong>سوخاری ها</strong>
+        </h5>
+        <hr>
+        <!-- First row -->
+        <div class="row mt-5 py-2 mb-4 hoverable align-items-center">
+          <div class="col-6">
+            <a>
+              <img src="./img/3tekespicy.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-6">
+            <a class="pt-5">
+              <strong>مرغ سوخاری سه تکه اسپایسی</strong>
+            </a>
+            <ul class="rating inline-ul">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star grey-text"></i>
+              </li>
+            </ul>
+            <h6 class="h6-responsive font-weight-bold dark-grey-text">
+              <strong>۵۲،۵۰۰ تومان</strong>
+            </h6>
+            <span class="float-left">
+              <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                <i class="fa fa-shopping-cart ml-3 hov-orange elegant-text"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+        <!-- First row -->
+        <!-- Second row -->
+        <div class="row mt-2 py-2 mb-4 hoverable align-items-center">
+          <div class="col-6">
+            <a>
+              <img src="./img/4teke.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-6">
+            <a>
+              <strong>چیکن استریپس چهار تکه</strong>
+            </a>
+            <ul class="rating inline-ul">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+            </ul>
+            <h6 class="h6-responsive font-weight-bold dark-grey-text">
+              <strong>۴۸،۵۰۰ تومان</strong>
+            </h6>
+            <span class="float-left">
+              <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                <i class="fa fa-shopping-cart ml-3 hov-orange elegant-text"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+        <!-- Second row -->
+        <!-- Third row -->
+        <div class="row mt-2 py-2 pb-1 hoverable align-items-center">
+          <div class="col-6">
+            <a>
+              <img src="./img/spicy.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-6">
+            <a>
+              <strong>مرغ سوخاری دو تکه اسپایسی</strong>
+            </a>
+            <ul class="rating inline-ul">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+            </ul>
+            <h6 class="h6-responsive font-weight-bold dark-grey-text">
+              <strong>۴۱،۰۰۰ تومان</strong>
+              <span class="grey-text">
+                <small>
+                  <s>۴۸،۵۰۰ تومان</s>
+                </small>
+              </span>
+            </h6>
+            <span class="float-left">
+              <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                <i class="fa fa-shopping-cart ml-3 hov-orange elegant-text"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+        <!-- Third row -->
+      </div>
+      <!-- New Products -->
+      <!-- Top Sellers -->
+      <div class="col-lg-4  col-md-12 pt-5">
+        <hr>
+        <h5 class="text-center font-weight-bold dark-grey-text">
+          <strong>برگرها</strong>
+        </h5>
+        <hr>
+        <div class="row mt-5 py-2 mb-4 hoverable align-items-center">
+          <div class="col-6">
+            <a>
+              <img src="./img/foodiranburger.jpeg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-6">
+            <a>
+              <strong>برگر ویژه فودیران</strong>
+            </a>
+            <ul class="rating inline-ul">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+            </ul>
+            <h6 class="h6-responsive font-weight-bold dark-grey-text">
+              <strong>۴۹،۵۰۰ تومان</strong>
+            </h6>
+            <span class="float-left">
+              <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                <i class="fa fa-shopping-cart ml-3 hov-orange elegant-text"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+        <!-- First row -->
+        <!-- Second row -->
+        <div class="row mt-2 py-2 mb-4 hoverable align-items-center">
+          <div class="col-6">
+            <a>
+              <img src="./img/hamburger.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-6">
+            <a>
+              <strong>همبرگر</strong>
+            </a>
+            <ul class="rating inline-ul">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star grey-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star grey-text"></i>
+              </li>
+            </ul>
+            <h6 class="h6-responsive font-weight-bold dark-grey-text">
+              <strong>۴۱،۵۰۰ تومان</strong>
+            </h6>
+            <span class="float-left">
+              <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                <i class="fa fa-shopping-cart ml-3 hov-orange elegant-text"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+        <!-- Second row -->
+        <!-- Third row -->
+        <div class="row mt-2 py-2 pb-1 hoverable align-items-center">
+          <div class="col-6">
+            <a>
+              <img src="./img/cheeseburger.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-6">
+            <a>
+              <strong>چیزبرگر</strong>
+            </a>
+            <ul class="rating inline-ul">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star grey-text"></i>
+              </li>
+            </ul>
+            <h6 class="h6-responsive font-weight-bold dark-grey-text">
+              <strong>۴۶،۵۰۰ تومان</strong>
+            </h6>
+            <span class="float-left">
+              <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                <i class="fa fa-shopping-cart ml-3 hov-orange elegant-text"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+        <!-- Third row -->
+      </div>
+      <!-- Top Sellers -->
+      <!-- Random Products -->
+      <div class="col-lg-4 col-md-12 pt-5">
+        <hr>
+        <h5 class="text-center font-weight-bold dark-grey-text">
+          <strong>پیتزاها</strong>
+        </h5>
+        <hr>
+        <!-- First row -->
+        <div class="row mt-5 py-2 mb-4 hoverable align-items-center">
+          <div class="col-6">
+            <a>
+              <img src="./img/foodiranpizza.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-6">
+            <a>
+              <strong>پیتزا فودیران</strong>
+            </a>
+            <ul class="rating inline-ul">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+            </ul>
+            <h6 class="h6-responsive font-weight-bold dark-grey-text">
+              <strong>۵۶،۵۰۰</strong>
+            </h6>
+            <span class="float-left">
+              <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                <i class="fa fa-shopping-cart ml-3 hov-orange elegant-text"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+        <!-- First row -->
+        <!-- Second row -->
+        <div class="row mt-2 py-2 mb-4 hoverable align-items-center">
+          <div class="col-6">
+            <a>
+              <img src="./img/pizzasteak.jpeg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-6">
+            <a>
+              <strong>پیتزا خامه استیک</strong>
+            </a>
+            <ul class="rating inline-ul">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+            </ul>
+            <h6 class="h6-responsive font-weight-bold dark-grey-text">
+              <strong>۶۹،۰۰۰ تومان</strong>
+              <span class="grey-text">
+                <small>
+                  <s>۷۲،۰۰۰ تومان</s>
+                </small>
+              </span>
+            </h6>
+            <span class="float-left">
+              <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                <i class="fa fa-shopping-cart ml-3 hov-orange elegant-text"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+        <!-- Second row -->
+        <!-- Third row -->
+        <div class="row mt-2 py-2 mb-4 hoverable align-items-center">
+          <div class="col-6">
+            <a>
+              <img src="./img/pepperoni30.jpg" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-6">
+            <a>
+              <strong>پیتزا پپرونی 30 سانتی</strong>
+            </a>
+            <ul class="rating inline-ul">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star grey-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star grey-text"></i>
+              </li>
+            </ul>
+            <h6 class="h6-responsive font-weight-bold dark-grey-text">
+              <strong>۵۲،۵۰۰ تومان</strong>
+              <span class="grey-text">
+                <small>
+                  <s>۵۵,۰۰۰ تومان</s>
+                </small>
+              </span>
+            </h6>
+            <span class="float-left">
+              <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                <i class="fa fa-shopping-cart ml-3 hov-orange elegant-text"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <div class="row">
+      <div class="col-12">
+        <hr>
+        <h4 class="text-center font-weight-bold dark-grey-text">
+          <strong>پرفروش ها</strong>
+        </h4>
+        <hr>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-ecommerce">
+          <div class="view overlay">
+            <img src="./img/pesto.jpg" class="img-fluid" alt="sample image">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mb-1">
+              <strong>
+                <a href="" class="dark-grey-text">ساندویچ مرغ پستو</a>
+              </strong>
+            </h5>
+            <ul class="rating">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+            </ul>
+            <div class="card-footer pb-0">
+              <div class="row mb-0">
+                <span class="float-right">
+                  <strong>۳۹،۰۰۰ تومان</strong>
+                </span>
+                <span class="float-left">
+                  <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                    <i class="fa fa-shopping-cart mr-3"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-ecommerce">
+          <div class="view overlay">
+            <img src="./img/alfredo.jpg" class="img-fluid" alt="sample image">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mb-1">
+              <strong>
+                <a href="" class="dark-grey-text">پاستا پنه آلفردو</a>
+              </strong>
+            </h5>
+            <ul class="rating">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+            </ul>
+            <div class="card-footer pb-0">
+              <div class="row mb-0">
+                <span class="float-right">
+                  <strong>۵۳،۵۰۰ تومان</strong>
+                </span>
+                <span class="float-left">
+                  <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                    <i class="fa fa-shopping-cart mr-3"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-ecommerce">
+          <div class="view overlay">
+            <img src="./img/mushroom.jpg" class="img-fluid" alt="sample image">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mb-1">
+              <strong>
+                <a href="" class="dark-grey-text">قارچ سوخاری</a>
+              </strong>
+            </h5>
+            <ul class="rating">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+            </ul>
+            <div class="card-footer pb-0">
+              <div class="row mb-0">
+                <span class="float-right">
+                  <strong>۱۹،۵۰۰ تومان</strong>
+                </span>
+                <span class="float-left">
+                  <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                    <i class="fa fa-shopping-cart mr-3"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card-ecommerce">
+          <div class="view overlay">
+            <img src="./img/vegipizza.jpg" class="img-fluid" alt="sample image">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mb-1">
+              <strong>
+                <a href="" class="dark-grey-text">پیتزا سبزیجات</a>
+              </strong>
+            </h5>
+            <ul class="rating">
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+              <li>
+                <i class="fa fa-star blue-text"></i>
+              </li>
+            </ul>
+            <div class="card-footer pb-0">
+              <div class="row mb-0">
+                <span class="float-right">
+                  <strong>۴۲،۰۰۰ تومان</strong>
+                </span>
+                <span class="float-left">
+                  <a class="" data-toggle="tooltip" data-placement="top" title="اضافه کردن به سبد خرید">
+                    <i class="fa fa-shopping-cart mr-3"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <footer class="page-footer font-small bg-fastfood  mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+            <a class="fb-ic">
+              <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="tw-ic">
+              <i class="fa fa-twitter  fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="gplus-ic">
+              <i class="fa fa-google-plus-official fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="li-ic">
+              <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="ins-ic">
+              <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020
+      <a href="https://iranian.academy"> foodiran.ir</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <script type="text/JavaScript" scr="./js/sidenav.js"></script>
+  <!--Popper Goes Here-->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Js Link Comes Here-->
+  <script type="text/JavaScript" src="./js/script.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script> <!-- Menu Toggle Script -->
+
+</body>
+
+</html>
